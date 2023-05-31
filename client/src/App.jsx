@@ -8,7 +8,7 @@ function App() {
   document.title = "MERN Tasks App";
 
   return (
-    <div className="bg-dark vh-100 text-white">
+    <div className="bg-dark text-white" style={{minHeight: "100vh"}}>
       <TaskContextProvider>
         <NavBar />
         <Routes>
